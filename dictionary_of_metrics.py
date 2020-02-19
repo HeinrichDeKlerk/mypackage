@@ -31,5 +31,4 @@ def dictionary_of_metrics(items):
         num_max = round(num_max,2)
     
         D = {"mean":num_mean, "median":num_median, "variance":num_var, "standard deviation":num_stddev, "min":num_min, "max":num_max}
-    
     return D
